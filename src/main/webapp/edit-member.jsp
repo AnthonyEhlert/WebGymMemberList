@@ -15,9 +15,9 @@
         Age: <input type = "number" name = "age" min = "1" value = "${memberToEdit.age}"><br>
         <h2> Current Waiver Status: ${memberToEdit.waiverSigned}</h2>
         Waiver Signed? True or False?:<br>
-        <input type = "radio" id = "true" name = "waiverSigned" value = "True">
+        <input type = "radio" id = "true" name = "waiverSigned" value = "True" required>
         <label for = "true">True</label><br><br>
-        <input type = "radio" id = "false" name = "waiverSigned" value = "Falso">
+        <input type = "radio" id = "false" name = "waiverSigned" value = "False">
         <label for = "false">False</label><br><br>
         <input type = "hidden" name = "id" value="${memberToEdit.id}">
         <input type = "submit" value="Save Member Info">

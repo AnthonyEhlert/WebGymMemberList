@@ -47,7 +47,7 @@ public class EditMemberServlet extends HttpServlet {
 		boolean waiverSigned = Boolean.parseBoolean(request.getParameter("waiverSigned"));
 		Integer tempId = Integer.parseInt(request.getParameter("id"));
 		
-		System.out.println(waiverSigned);
+		//System.out.println(waiverSigned);
 		
 		GymMember memberToUpdate = gmh.searchForMemberById(tempId);
 		memberToUpdate.setFirstName(firstName);

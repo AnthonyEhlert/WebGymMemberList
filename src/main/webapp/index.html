@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gym Member Home</title>
+</head>
+<body>
+    <h1>Enter the new member's info to add them to the database or click the "View All Members" Link to view the current members</h1>
+    <form action = "addMemberServlet" method = "post">
+        First Name: <input type = "text" name = "firstName"><br><br>
+        Last Name: <input type = "text" name = "lastName"><br><br>
+        Age: <input type = "number" name = "age" min = "1"><br><br><br>
+        <input type = "submit" value = "Add Member">
+    </form> <br />
+    <a href = "viewAllMembersServlet">View the complete list of members </a>
+</body>
+</html>

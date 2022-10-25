@@ -38,5 +38,7 @@
     <input type = "submit" value = "delete" name = "doThisToMember">
     <input type = "submit" value = "add" name = "doThisToMember">
     </form>
+    <br />
+    <a href= "index.html">Main Page</a>
 </body>
 </html>

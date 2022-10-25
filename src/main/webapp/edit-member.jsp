@@ -17,7 +17,7 @@
             alert ("Please provide a last name");
             document.editMemberForm.lastName.focus();
             return false;
-        }if(document.editMemberForm.age.value == "" || document.editMemberForm.age.value < 1) {
+        }if(document.editMemberForm.age.value == "" || document.editMemberForm.age.value < 1 || document.editMemberForm.age.value > 199) {
             alert ("Please provide a valid age");
             document.editMemberForm.age.focus();
             return false;
